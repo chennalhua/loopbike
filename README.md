@@ -1,7 +1,7 @@
 # loopbike
 https://chennalhua.github.io/loopbike/
 
-### 完成
+### 目前完成
 #### loading 效果
 #### 前台頁面串接 API
 - 前台頁面
