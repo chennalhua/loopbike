@@ -1,0 +1,18 @@
+.cart-num-group input::-webkit-outer-spin-button,
+.cart-num-group input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+}
+
+.cart-num-group{
+    .form-control:disabled, .form-control[readonly]{
+        background-color: #fff;
+    }
+}
+
+.full-loading{
+    .page-loading{
+        position: absolute;
+        top:50%;
+        left: 50%;
+    }
+}
