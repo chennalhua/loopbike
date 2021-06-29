@@ -19,15 +19,7 @@
         </div>
       </div>
       <div class="container mt-5" v-else>
-          <div class="row no-gutters">
-              <!-- <div class="col-lg-3 mb-3 mb-lg-0">
-                  <div class="list-group">
-                      <h2 class="list-group-item bg-third text-light text-center h4 m-0">類別</h2>
-                      <a href="#" class="list-group-item list-group-item-action active">全部</a>
-                      <a href="#" class="list-group-item list-group-item-action">車種</a>
-                      <a href="#" class="list-group-item list-group-item-action">配件</a>
-                  </div>
-              </div> -->
+          <div class="row">
               <div class="px-3 px-lg-0">
                   <product-list :products="productsData" :loading-status="loadingStatus"
                   @click-modal="clickModal"
@@ -36,7 +28,7 @@
               </div>
           </div>
       </div>
-      <footer class="bg-primary text-light py-3 text-center mt-5">footer</footer>
+      <footer class="bg-primary text-light py-3 text-center mt-5">copyright &copy; 2021 LoopBike</footer>
       <product-info-modal :product="product">
       </product-info-modal>
 </div>
