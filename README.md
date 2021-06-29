@@ -1,5 +1,5 @@
-## vue_week5
-https://chennalhua.github.io/vue_2021_summer/vueweek5/index.html
+# loopbike
+
 
 ### 完成
 #### loading 效果
@@ -12,4 +12,4 @@ https://chennalhua.github.io/vue_2021_summer/vueweek5/index.html
 - 調整購物車產品數量
 - 結帳付款
   * vee-validation 表單驗證
-# loopbike
+
